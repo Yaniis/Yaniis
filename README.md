@@ -3,7 +3,7 @@
 </div>  
   
 
-### <div align="center">Je suis Yanis, un développeur🚀</div>  
+### <div align="center">Je suis Yanis, un développeur qui fais de sa passion son avenir 🚀</div>  
   
 
 - 🔭 A la recherche d'un poste de développeur JAVA  
