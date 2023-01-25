@@ -81,25 +81,6 @@
 </a>  
 </div>  
   
-
 <br/>  
-
-
-## Github Stats  
-  
-
-<br/>   
- 
-
-<br/>  
-
-  
-
-<br/>  
-
-  
-
-<br/>  
-
 
 <br />
