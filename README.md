@@ -6,13 +6,7 @@
 ### <div align="center">Je suis Yanis, un développeur qui fais de sa passion son avenir 🚀</div>  
   
 
-- 🔭 A la recherche d'un poste de développeur JAVA  
-  
-
-- 🌱 Je m'auto-forme en JAVA ( Spring boot )  
-  
-
-- ❓ Ask me about anything related to MERN stack and related technologies  
+- 🔭 Je ne veux pas réinventer la roue, je veux juste continuer à la faire rouler 
   
 
 <br/>  
