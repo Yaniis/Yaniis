@@ -6,7 +6,7 @@
 ### <div align="center">Je suis Yanis, un développeur qui fais de sa passion son avenir 🚀</div>  
   
 
-- 🔭 Je ne veux pas réinventer la roue, je veux juste continuer de la faire tourner 
+- 🔭 Je ne veux pas réinventer la roue, seulement la rendre plus grande 
   
 
 <br/>  
