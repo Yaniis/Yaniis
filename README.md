@@ -1,79 +1,74 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
 
-### <div align="center">Je suis Yanis, un développeur qui fais de sa passion son avenir 🚀</div>  
-  
+<!-- Bannière animée personnalisée (réseau de neurones) -->
+<img src="assets/header.svg" alt="Bannière animée" width="100%"/>
 
-- 🔭 Je ne veux pas réinventer la roue, juste l'améliorer
-  
+<!-- Effet machine à écrire -->
+<a href="https://github.com/VOTRE-PSEUDO">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8B7CF7&center=true&vCenter=true&width=600&lines=Passionn%C3%A9+d'Intelligence+Artificielle;Du+prototype+au+d%C3%A9ploiement;J'automatise%2C+j'entra%C3%AEne%2C+j'optimise;Toujours+en+train+d'apprendre" alt="Typing animation"/>
+</a>
 
-<br/>  
-
-
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
-
-
-
-### Frontend  
-<div align="center">  
-<a href="https://angular.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="Angular" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>
-<a href="https://developer.apple.com/swift/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/swift-original-wordmark.svg" alt="Swift" height="50" /></a>
-<a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/logo-title.svg" alt="Chart.js" height="50" /></a>    
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
-<a href="https://jquery.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="50" /></a>  
 </div>
 
-</td><td valign="top" width="33%">
+---
 
+## 🧠 À propos
 
+```python
+class Developer:
+    def __init__(self):
+        self.name = "Votre Nom"
+        self.focus = ["Intelligence Artificielle", "Machine Learning", "Automatisation"]
+        self.learning = "toujours quelque chose de nouveau"
 
-### Backend  
-<div align="center">    
-<a href="https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html#:~:text=The%20Spring%20Expression%20Language%20(SpEL,and%20basic%20string%20templating%20functionality." target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="Spring" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://symfony.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/symfony_black_03.svg" alt="Symfony" height="50" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /></a>
-<a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>
-<a href="https://mariadb.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mariadb.png" alt="Maria DB" height="50" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
-</div>
+    def say_hi(self):
+        print("Merci de passer sur mon profil ! 🚀")
 
-</td><td valign="top" width="33%">
+Developer().say_hi()
+```
 
+## 🛠️ Stack technique
 
-
-### DevOps  
-<div align="center">  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" /></a>  
-<a href="https://www.apachefriends.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="50" /></a>  
-</div>
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Connect with me  
 <div align="center">
-<a href="https://linkedin.com/in/yanis-guergour" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/y.inis" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/Yaniis" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
-<br/>  
 
-<br />
+### Langages
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,bash&theme=dark" alt="Langages"/>
+
+### IA & Data
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda&theme=dark" alt="IA et Data"/>
+
+### Outils & Infra
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,linux,vscode,postgres&theme=dark" alt="Outils"/>
+
+</div>
+
+## 📊 Statistiques
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=VOTRE-PSEUDO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E1A&title_color=4EE1EC&icon_color=8B7CF7&text_color=9BA6C9&locale=fr" alt="Stats GitHub"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VOTRE-PSEUDO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0E1A&title_color=4EE1EC&text_color=9BA6C9&locale=fr" alt="Langages les plus utilisés"/>
+
+<img src="https://streak-stats.demolab.com?user=VOTRE-PSEUDO&theme=tokyonight&hide_border=true&background=0B0E1A&ring=8B7CF7&fire=F472B6&currStreakLabel=4EE1EC&locale=fr" alt="Streak de contributions"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VOTRE-PSEUDO&theme=tokyo-night&hide_border=true&bg_color=0B0E1A&color=9BA6C9&line=8B7CF7&point=4EE1EC&area=true&area_color=1A2140" width="100%" alt="Graphe d'activité"/>
+
+</div>
+
+## 🐍 Contributions
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/VOTRE-PSEUDO/VOTRE-PSEUDO/output/github-snake-dark.svg" alt="Animation snake des contributions"/>
+</div>
+
+## 📫 Me contacter
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0E1A?style=for-the-badge&logo=linkedin&logoColor=4EE1EC)](https://linkedin.com/in/VOTRE-PROFIL)
+[![Email](https://img.shields.io/badge/Email-0B0E1A?style=for-the-badge&logo=gmail&logoColor=F472B6)](mailto:votre@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0B0E1A?style=for-the-badge&logo=firefox&logoColor=8B7CF7)](https://votre-site.com)
+
+<img src="https://komarev.com/ghpvc/?username=VOTRE-PSEUDO&color=8B7CF7&style=for-the-badge&label=Visites" alt="Compteur de visites"/>
+
+</div>
