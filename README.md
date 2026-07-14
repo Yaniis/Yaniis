@@ -1,74 +1,54 @@
 <div align="center">
 
-<!-- Bannière animée personnalisée (réseau de neurones) -->
-<img src="assets/header.svg" alt="Bannière animée" width="100%"/>
+<!-- Bannière terminal animée (SVG custom, à committer dans assets/) -->
+<img src="./assets/banner.svg" alt="Terminal — Yanis Guergour, développeur full-stack & intégrateur IA" width="850">
 
-<!-- Effet machine à écrire -->
-<a href="https://github.com/VOTRE-PSEUDO">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8B7CF7&center=true&vCenter=true&width=600&lines=Passionn%C3%A9+d'Intelligence+Artificielle;Du+prototype+au+d%C3%A9ploiement;J'automatise%2C+j'entra%C3%AEne%2C+j'optimise;Toujours+en+train+d'apprendre" alt="Typing animation"/>
-</a>
+<!-- Texte défilant animé -->
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=800&color=7EE787&center=true&vCenter=true&width=600&lines=Applications+m%C3%A9tier+Symfony+%2F+Angular;Int%C3%A9gration+IA+%E2%80%94+MCP%2C+agents%2C+RAG;E-commerce+sur-mesure+%26+SEO;RGPD+by+design+%F0%9F%87%AA%F0%9F%87%BA)](https://yaniis.dev)
 
-</div>
-
----
-
-## 🧠 À propos
-
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Votre Nom"
-        self.focus = ["Intelligence Artificielle", "Machine Learning", "Automatisation"]
-        self.learning = "toujours quelque chose de nouveau"
-
-    def say_hi(self):
-        print("Merci de passer sur mon profil ! 🚀")
-
-Developer().say_hi()
-```
-
-## 🛠️ Stack technique
-
-<div align="center">
-
-### Langages
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,rust,bash&theme=dark" alt="Langages"/>
-
-### IA & Data
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda&theme=dark" alt="IA et Data"/>
-
-### Outils & Infra
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,git,linux,vscode,postgres&theme=dark" alt="Outils"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-yaniis.dev-111111?style=for-the-badge&logo=safari&logoColor=white)](https://yaniis.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yanis--guergour-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yanis-guergour/)
 
 </div>
 
-## 📊 Statistiques
+## 🛠️ Stack
 
-<div align="center">
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D1117?style=flat-square&logo=swift&logoColor=FA7343)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=VOTRE-PSEUDO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E1A&title_color=4EE1EC&icon_color=8B7CF7&text_color=9BA6C9&locale=fr" alt="Stats GitHub"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VOTRE-PSEUDO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0E1A&title_color=4EE1EC&text_color=9BA6C9&locale=fr" alt="Langages les plus utilisés"/>
+## 🔭 En ce moment
 
-<img src="https://streak-stats.demolab.com?user=VOTRE-PSEUDO&theme=tokyonight&hide_border=true&background=0B0E1A&ring=8B7CF7&fire=F472B6&currStreakLabel=4EE1EC&locale=fr" alt="Streak de contributions"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VOTRE-PSEUDO&theme=tokyo-night&hide_border=true&bg_color=0B0E1A&color=9BA6C9&line=8B7CF7&point=4EE1EC&area=true&area_color=1A2140" width="100%" alt="Graphe d'activité"/>
-
-</div>
+- **Scraper Max** — serveur MCP + agent IA : collecte et structuration de données B2B (cache multi-niveaux, observabilité, RGPD)
+- **Logiciel métier** de suivi de réparations pour un atelier d'optique astronomique (Symfony / Angular)
 
 ## 🐍 Contributions
 
+<!-- Générée par l'action snk (voir .github/workflows/snake.yml) -->
+![Snake animation](https://raw.githubusercontent.com/Yaniis/Yaniis/output/github-contribution-grid-snake-dark.svg)
+
 <div align="center">
-<img src="https://raw.githubusercontent.com/VOTRE-PSEUDO/VOTRE-PSEUDO/output/github-snake-dark.svg" alt="Animation snake des contributions"/>
+
+*« Comprendre le métier avant d'écrire du code. »*
+
 </div>
 
-## 📫 Me contacter
+## 🎬 En vidéo
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0E1A?style=for-the-badge&logo=linkedin&logoColor=4EE1EC)](https://linkedin.com/in/VOTRE-PROFIL)
-[![Email](https://img.shields.io/badge/Email-0B0E1A?style=for-the-badge&logo=gmail&logoColor=F472B6)](mailto:votre@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0B0E1A?style=for-the-badge&logo=firefox&logoColor=8B7CF7)](https://votre-site.com)
+<!-- GIF en boucle (lecture auto inline sur GitHub). Version vidéo HD + son via le lien dessous. -->
+<img src="assets/presentation.gif" width="280" alt="Présentation en boucle">
 
-<img src="https://komarev.com/ghpvc/?username=VOTRE-PSEUDO&color=8B7CF7&style=for-the-badge&label=Visites" alt="Compteur de visites"/>
+*[▶️ Version vidéo — HD &amp; son](https://raw.githubusercontent.com/Yaniis/Yaniis/main/assets/presentation.mp4)*
 
 </div>
