@@ -1,0 +1,143 @@
+<svg width="850" height="230" viewBox="0 0 850 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="850" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B0E1A"/>
+      <stop offset="1" stop-color="#141A33"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="40" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4EE1EC"/>
+      <stop offset="0.55" stop-color="#8B7CF7"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4EE1EC" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4EE1EC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="850" height="230" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="849" height="229" rx="13.5" stroke="#2A3352" stroke-opacity="0.8"/>
+
+  <!-- Grille discrète -->
+  <g stroke="#26304F" stroke-width="0.5" opacity="0.35">
+    <path d="M0 57.5H850M0 115H850M0 172.5H850"/>
+    <path d="M106 0V230M212 0V230M318 0V230M424 0V230M530 0V230M636 0V230M742 0V230"/>
+  </g>
+
+  <!-- Halo derrière le réseau -->
+  <circle cx="672" cy="115" r="120" fill="url(#glow)"/>
+
+  <!-- ===== Réseau de neurones (côté droit) ===== -->
+  <!-- Connexions -->
+  <g stroke="#3B466E" stroke-width="1">
+    <path id="c1" d="M560 55 L648 85"/>
+    <path id="c2" d="M560 115 L648 85"/>
+    <path id="c3" d="M560 115 L648 145"/>
+    <path id="c4" d="M560 175 L648 145"/>
+    <path id="c5" d="M648 85 L736 70"/>
+    <path id="c6" d="M648 85 L736 130"/>
+    <path id="c7" d="M648 145 L736 130"/>
+    <path id="c8" d="M648 145 L736 190"/>
+    <path id="c9" d="M736 70 L804 115"/>
+    <path id="c10" d="M736 130 L804 115"/>
+    <path id="c11" d="M736 190 L804 115"/>
+    <path id="c12" d="M560 55 L648 145"/>
+    <path id="c13" d="M560 175 L648 85"/>
+  </g>
+
+  <!-- Impulsions lumineuses circulant sur les connexions -->
+  <g filter="url(#soft)">
+    <circle r="3" fill="#4EE1EC">
+      <animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#c1"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#8B7CF7">
+      <animateMotion dur="2.6s" begin="0.4s" repeatCount="indefinite"><mpath href="#c3"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#F472B6">
+      <animateMotion dur="2s" begin="0.8s" repeatCount="indefinite"><mpath href="#c4"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#4EE1EC">
+      <animateMotion dur="2.4s" begin="0.2s" repeatCount="indefinite"><mpath href="#c6"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#8B7CF7">
+      <animateMotion dur="2.1s" begin="1s" repeatCount="indefinite"><mpath href="#c7"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.1s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#4EE1EC">
+      <animateMotion dur="1.8s" begin="0.6s" repeatCount="indefinite"><mpath href="#c9"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#F472B6">
+      <animateMotion dur="2s" begin="1.2s" repeatCount="indefinite"><mpath href="#c11"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#8B7CF7">
+      <animateMotion dur="3s" begin="1.5s" repeatCount="indefinite"><mpath href="#c13"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Nœuds -->
+  <g>
+    <!-- Couche d'entrée -->
+    <circle cx="560" cy="55" r="7" fill="#1A2140" stroke="#4EE1EC" stroke-width="1.5">
+      <animate attributeName="r" values="7;8.5;7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="115" r="7" fill="#1A2140" stroke="#4EE1EC" stroke-width="1.5">
+      <animate attributeName="r" values="7;8.5;7" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="175" r="7" fill="#1A2140" stroke="#4EE1EC" stroke-width="1.5">
+      <animate attributeName="r" values="7;8.5;7" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Couches cachées -->
+    <circle cx="648" cy="85" r="8" fill="#1A2140" stroke="#8B7CF7" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="648" cy="145" r="8" fill="#1A2140" stroke="#8B7CF7" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="736" cy="70" r="8" fill="#1A2140" stroke="#8B7CF7" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="736" cy="130" r="8" fill="#1A2140" stroke="#8B7CF7" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="736" cy="190" r="8" fill="#1A2140" stroke="#8B7CF7" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Sortie -->
+    <circle cx="804" cy="115" r="10" fill="#1A2140" stroke="#F472B6" stroke-width="2">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ===== Texte (côté gauche) ===== -->
+  <text x="42" y="96" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="url(#txt)">VOTRE NOM</text>
+
+  <!-- Sous-titre façon terminal avec curseur clignotant -->
+  <text x="42" y="134" font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="17" fill="#9BA6C9">
+    <tspan fill="#4EE1EC">$</tspan> build · train · deploy · repeat
+  </text>
+  <rect x="318" y="121" width="9" height="16" fill="#4EE1EC">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tags -->
+  <g font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="12">
+    <rect x="42" y="158" width="118" height="26" rx="13" fill="#1A2140" stroke="#4EE1EC" stroke-opacity="0.5"/>
+    <text x="101" y="175" text-anchor="middle" fill="#4EE1EC">Intelligence IA</text>
+    <rect x="170" y="158" width="96" height="26" rx="13" fill="#1A2140" stroke="#8B7CF7" stroke-opacity="0.5"/>
+    <text x="218" y="175" text-anchor="middle" fill="#8B7CF7">Open Source</text>
+    <rect x="276" y="158" width="88" height="26" rx="13" fill="#1A2140" stroke="#F472B6" stroke-opacity="0.5"/>
+    <text x="320" y="175" text-anchor="middle" fill="#F472B6">Full Stack</text>
+  </g>
+</svg>
